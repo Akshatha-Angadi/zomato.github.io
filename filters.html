@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <style>
+
+        #one{
+            background-color: darksalmon;
+            width: 150px;
+        }
+        #two{
+            text-align: right;
+            border-top: 1px solid black;
+        }
+        #three{
+            border-bottom:  1px solid cadetblue;
+            font-size: 30px;
+        }
+        #four{
+            width: 150px;
+        }
+        #five{
+            text-align: left;
+        }
+        iframe{
+            border-right: 1px solid black;
+        }
+        body{
+            border: 1px solid black;
+            width:50%;
+        }
+    </style>
+</head>
+<body>
+    
+        <div id="three">
+            Filters
+        </div>
+        <iframe src="filter_index.html" aria-colcount="1" width="200px" height="300px"></iframe>
+        <iframe src="sortby.html" frameborder="0" id="five" aria-colcount="2"></iframe>
+        <div id="two">
+            <input type="button" value="clear all" id="four">
+            <input type="button" value="Apply" id="one">
+        </div>
+   
+</body>
+</html>
